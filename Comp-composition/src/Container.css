@@ -1,0 +1,6 @@
+.app{
+    position: fixed;
+    background-color: white;
+    border:2px red solid;
+    height: fit-content;
+}
