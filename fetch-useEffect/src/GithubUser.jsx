@@ -19,12 +19,12 @@ export function GithubUser({ username }) {
 
   return (
     <>
-      {user ? (
+      {data ? (
         <div className="card-user">
-          <h3>{user.name}</h3>
-          <p>{user.login}</p>
+          <h3>{data.name}</h3>
+          <p>{data.login}</p>
           <div>
-            <img className="avatar" src={user.avatar_url} alt="avatar" />
+            <img className="avatar" src={data.avatar_url} alt="avatar" />
           </div>
         </div>
       ) : null}
