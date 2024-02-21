@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { ControlledLogin } from './UncontrolledLogin'
+import { UncontrolledLogin } from './UncontrolledLogin'
 
 function App() {
 
 
   return (
     <>
-    <ControlledLogin></ControlledLogin>
+  <UncontrolledLogin></UncontrolledLogin>
 
     </>
   )
